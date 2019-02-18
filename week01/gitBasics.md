@@ -25,17 +25,17 @@ git config --global user.email "myemail@example.com"
 
 4. After initialising a new Git repository, if you run ls -a, what is the name of the folder created in the current project directory? .git
 
-5. Now, Katherine creates a file readme.txt and adds the line initial edit to the file. She saves and closes the file. Git isn’t aware of this file yet. To track this file she must type:
+5. Now, Katherine creates a file readme.txt and adds the line initial edit to the file. She saves and closes the file. Git isn’t aware of this file yet. To track this file she must type: git add file
 
-6. Next, Katherine can commit the changes with a meaningful message. To do that, she must run the command: ___________
+6. Next, Katherine can commit the changes with a meaningful message. To do that, she must run the command: git commit -m "My message here"
 
-7. To check the history of commits by typing: ___________
+7. To check the history of commits by typing: git log
 
-8. Katherine wants to add a new feature but does not want to mess up the old features. She decide to create a new branch, to make her changes. To create a branch called feature1 , she must type:___________
+8. Katherine wants to add a new feature but does not want to mess up the old features. She decide to create a new branch, to make her changes. To create a branch called feature1 , she must type: git branch feature1
 
-9. To check out to the new branch, type: ___________
+9. To check out to the new branch, type: git checkout feature1
 
-10. Alternatively, Katherine can also create a new branch and check out to this new branch by typing a single command
+10. Alternatively, Katherine can also create a new branch and check out to this new branch by typing a single command: git checkout -b feature1
 
 11. Katherine now makes some changes to her file, adding a comment like “A change exclusive to this branch only”. Git isn’t aware of this changes yet, to stage and commit the changes, she must type: ___________
 
