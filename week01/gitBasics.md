@@ -37,6 +37,6 @@ git config --global user.email "myemail@example.com"
 
 10. Alternatively, Katherine can also create a new branch and check out to this new branch by typing a single command: git checkout -b feature1
 
-11. Katherine now makes some changes to her file, adding a comment like “A change exclusive to this branch only”. Git isn’t aware of this changes yet, to stage and commit the changes, she must type: ___________
+11. Katherine now makes some changes to her file, adding a comment like “A change exclusive to this branch only”. Git isn’t aware of this changes yet, to stage and commit the changes, she must type: git commit -am "Message"
 
 The above exercises demonstrate the use of version-control tool Git. In the labs, you will learn how to setup a remote repository on your Github account and push the changes from your local Git repository to the remote GitHub Repository and also pull changes from the remote repository into your local repo.
