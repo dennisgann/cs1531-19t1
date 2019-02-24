@@ -3,6 +3,9 @@
 num_words = int(input("Enter number of words: "))
 sentence = ""
 
-# complete the rest of the code
+for i in range(num_words):
+    sentence += input("")
+    if (i + 1 < num_words):
+        sentence += " "
 
 print(sentence)

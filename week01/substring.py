@@ -23,3 +23,12 @@ assume sub_str is not empty
 '''
 
 # For example, in the base-string  `aaa`, the sub-string  `aa`  appears twice and in the base-string  `aa`, the sub-string  `aaa`  appears 0 times.
+
+s = input("Enter the complete string: ")
+sub_str = input("Enter the sub-string: ")
+
+n = 0
+for i in range(len(s) - len(sub_str) + 1):
+    if s[i:i+len(sub_str)] == sub_str:
+        n += 1
+print(n)
