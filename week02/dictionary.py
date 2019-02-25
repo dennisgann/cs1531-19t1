@@ -21,3 +21,16 @@ You are given a dictionary of fruits names and their prices ($). Add a new entry
 
 fruit_prices = {'bananas': 10, 'rock melons': 4, 'blueberries': 23}
 fruit_prices['golden apple'] = 42
+
+def fruit_basket(fruits):
+    total = 0
+    for fruit, price in fruits.items():
+        count = int(input(f"How many {fruit} do you want? "))
+        if count < 0:
+            print("Can't have negative quantity")
+            return
+        print(f"Added {count} {fruit} to your basket")
+        total += count * price
+    print(f"TOTAL = {total}")
+
+fruit_basket(fruit_prices)
